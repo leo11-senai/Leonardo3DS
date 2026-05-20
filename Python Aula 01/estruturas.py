@@ -19,3 +19,13 @@ elif nota >= 50 and pc_presenca >= 75:
     print ('Recuperação')
 else:
     print('Reprovado!')
+    
+    
+    compra_rs = 250.00
+    assinante_premium = True
+    reside_interior = True
+    
+    if (reside_interior == True):
+        print("Não ganha frete grátis")
+    elif (assinante_premium or compra_rs):
+        print('Granha frete grátis')
